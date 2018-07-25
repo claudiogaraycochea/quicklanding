@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quick Landing Structure</title>
+    <meta name="description" content=" "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <section class="hero fluid-h d-flex justify-content-center">
+            <a name="home" />
+            <div class="content">
+                <img src="img/test.svg" class="img-fluid image">
+                <h1 class="title">Title that capture interest</h1>
+                <h2 class="subtitle">Second interest capture</h2>
+                <p>
+                    Quick description
+                </p>
+            </div>
+        </section>
+        <section>
+            <a name="about" />
+            <div class="content">
+                <h1>About</h1>
+                <p>
+                    The best intro of product
+                </p>
+            </div>           
+        </section>
+        <div class="divisor"></div>
+        <section>
+            <a name="section2" />
+            <div class="content">
+                <h1>Title 1</h1>
+                <p>
+                    Explain better
+                </p>
+                <img src="img/test.svg" class="img-fluid">
+            </div>
+        </section>
+        <section class="bg-product">
+            <a name="section" />
+            <div class="content">
+                <h1>Title 2</h1>
+                <h2 class="text-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <img src="img/test.svg" class="img-fluid">
+                <p>
+                    <button class="btn btn-primary btn-lg openBtn" data-toggle="modal" modal-content="websiteCreateModule" data-target="#myModal">Create</button>
+                </p>
+            </div>
+        </section>
+        <section>
+            <a name="section" />
+            <div class="content">
+                <h1>Customers</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/test.svg" class="img-fluid">
+                        <div class="label">
+                            <div>[Quiksilver]</div>
+                            American Retail Sporting Company
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <img src="img/test.svg" class="img-fluid">
+                        <div class="label">
+                            <div>[Yoann Kongolo]</div>
+                            Kickboxing World Champion
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/test.svg" class="img-fluid">
+                        <div class="label">
+                            <div>[Sebastián Yatra]</div>
+                            Best New Artist Latin Pop
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>         
+        </section>
+        <section class="bg-dark">
+            <a name="contactme"/>
+            <div class="content">
+                <h1>Contact me</h1>
+                <p>
+                    A last message to stimulate to contact us
+                </p>
+                <div class="col-md-5 mx-auto">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>                    
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        Copyright 2018 - Your Company
+    </footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
